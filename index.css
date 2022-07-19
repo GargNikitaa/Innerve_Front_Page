@@ -1,0 +1,257 @@
+/*.top{
+	background-color: black;
+	height: 90px;
+}*/
+
+*{
+	background-color: black;
+}
+
+.text{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.vd{
+	/*position: absolute;
+	right:0;
+	bottom: 0;*/
+	z-index: -1;
+	width:	100px;
+	height: 100px;
+}
+
+.list li{
+	display: inline;
+    font-size: 17px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.list a{
+	text-decoration: none;
+	position: relative;
+	padding: 5px 5px;
+}
+
+
+.list a li::after{
+	content:'';
+	width: 0%;
+	height: 2px;
+	background: red;
+	display:block;
+	margin-left: 10px;
+	transition: 0.5s;
+	position: absolute;
+	left: 0;
+	right:	50;
+	bottom: 0;
+
+}
+
+.list a li:hover::after{
+		width: 100%;
+}
+
+.list{ 
+	display: inline; 
+	background-color: none; 
+	width: 900px; 
+    text-align: center; 
+    margin-top: -50px;	
+    float: right;
+    margin-right: 150px;
+}
+
+.list button{
+	display: inline;
+	float: right;
+	margin-top: -30px;
+	margin-right: -60px;
+	cursor: inherit;
+}
+
+.first img{
+	flex: 0 0 150px;
+	width:150px;
+	height: 80px;
+	margin-top: 5px;
+}
+
+#signup{
+	float: right;
+	margin-left: 380px;
+	font-size: 15px;
+	height:40px;
+	background-color: black;
+	color: white;
+	border-color: #1D24A2;
+	border-radius: 0%;
+}
+
+#register{
+	float: right;
+	margin-left: 380px;
+	margin-right: -359px;
+	font-size: 15px;
+	height:40px;
+	background-color: #1D24A2;
+	color: white;
+	border:none;
+	border-radius: 0%;
+}
+
+#innerve{
+	color: white;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    margin-top: 0px;
+    padding-top: 80px;
+    top: 0;
+    left:0;
+    height: 20vh;
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 145px;
+    mix-blend-mode: multiply;
+    background-color: black;
+
+}
+
+@media (min-aspect-ratio: 16/9){
+	.vd{
+		width: 100%;
+		height: 72%;
+	}
+}
+@media (max-aspect-ratio: 16/9){
+	.vd{
+		width: 100%;
+		height: 72%;
+	}
+}
+
+.intro{
+	color: white;
+	ffont-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-left: 80px;
+	padding-right: 80px;
+	position: absolute;
+	top:340px;
+	bottom:70px;
+	margin-top: 0px;
+	padding-top: -30px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#explore{
+	position:absolute;
+	margin-left: 650px;
+	margin-right: 350px;
+	margin-top: -250px;
+	padding-top: 10px;
+	padding-bottom: -10px;
+	width: 200px;
+	height: 200px;
+	font-size: 30px;
+	height: 80px;
+	background-color: none;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	border: 2px  solid #1D24A2;
+	border-radius: 50px;
+}
+
+.gallery{
+	color: white;
+	font-family: 'Cormorant SC', serif;
+	font-size: 50px;
+	text-align: center;
+	padding-left: 600px;
+	padding-right: 80px;
+	position: absolute;
+	top:790px;
+	bottom:70px;
+	margin-top: 0px;
+	padding-top: -30px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#firstimg{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 200px;
+	margin-left: 20px;
+}
+
+#secondimg{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 200px;
+	margin-left: 20px;
+}
+
+#thirdimg{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 200px;
+	margin-left: 20px;
+}
+
+#fourthimg{
+	width: 500px;
+	height: 620px;
+	margin-bottom: -120px;
+	margin-left: 20px;
+}
+
+#fifthimg{
+	width: 300px;
+	height: 300px;
+	margin-top: -180px;
+	margin-left: 20px;
+}
+
+#sixthimg{
+	width: 625px;
+	height: 300px;
+	margin-top: -200px;
+	margin-left: 20px;
+}
+
+#contact{
+	color:white;
+	font-size:25px;
+	margin-left: 30px;
+}
+
+#insta{
+	height:50px;
+	width:50px;
+}
+
+
+#fb{
+	height:45px;
+	width:50px;
+}
+
+#twitter{
+	height:50px;
+	width:100px;
+	margin-left: -7px;
+}
